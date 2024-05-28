@@ -1,0 +1,27 @@
+{
+  "name": "@semanttic/llm-factory",
+  "private": true,
+  "version": "0.1.0",
+  "description": "Common API for LLM providers and models",
+  "license": "Apache-2.0",
+  "author": {
+    "email": "support@semanttic.com",
+    "name": "Semanttic",
+    "url": "https://semanttic.com"
+  },
+  "homepage": "https://semanttic.com",
+  "main": "src/index.ts",
+  "types": "src/index.d.ts",
+  "files": [
+    "src"
+  ],
+  "readme": "README.md",
+  "dependencies": {
+    "@aws-sdk/client-bedrock-runtime": "3.535.0",
+    "@azure/openai": "1.0.0-beta.12",
+    "@semanttic/env": "workspace:*",
+    "@semanttic/openai": "workspace:*",
+    "axios": "1.6.7",
+    "openai": "4.47.1"
+  }
+}
